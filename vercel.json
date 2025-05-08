@@ -1,12 +1,12 @@
 {
   "env": {
-    "VITE_SUPABASE_URL": "https://pscopweerajcktddotty.supabase.co",
-    "VITE_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBzY29wd2VlcmFqY2t0ZGRvdHR5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDY2ODgwMTYsImV4cCI6MjA2MjI2NDAxNn0.sbjjofiBaDdGF9-wIZ2ADpvnEOzSPAViFei8Fcv0hj0"
+    "VITE_SUPABASE_URL": "@vite_supabase_url",
+    "VITE_SUPABASE_ANON_KEY": "@vite_supabase_anon_key"
   },
   "build": {
     "env": {
-      "VITE_SUPABASE_URL": "https://pscopweerajcktddotty.supabase.co",
-      "VITE_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBzY29wd2VlcmFqY2t0ZGRvdHR5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDY2ODgwMTYsImV4cCI6MjA2MjI2NDAxNn0.sbjjofiBaDdGF9-wIZ2ADpvnEOzSPAViFei8Fcv0hj0"
+      "VITE_SUPABASE_URL": "@vite_supabase_url",
+      "VITE_SUPABASE_ANON_KEY": "@vite_supabase_anon_key"
     }
   }
 }

@@ -1,10 +1,10 @@
 import { createClient } from '@supabase/supabase-js';
+import { supabaseUrl, supabaseAnonKey } from '../config'; // Updated import
 
-const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
-const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY;
-
+// The checks for undefined are now in config.ts, so they are not strictly needed here again
+// but it doesn't hurt to keep them as a safeguard if this module were used independently.
 if (!supabaseUrl || !supabaseAnonKey) {
-  throw new Error('Supabase URL and Anon Key must be defined in .env');
+  throw new Error('Supabase URL and Anon Key must be defined and exported from config.ts');
 }
 
 export const supabase = createClient(supabaseUrl, supabaseAnonKey);
